@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.w-page {
+
+body {
     height: 100vh;
     width: 100vw;
     background-image: url("https://media.istockphoto.com/id/1424234489/vector/modern-gradient-blend-background.jpg?s=612x612&w=0&k=20&c=UfqcH4ggRACL6TOoDpGyW9RY5dzQwXMQ6ulYJEu3Vas=");
     background-size: cover;
     background-position: center;
-    opacity: .9;
+    opacity: .85;
 }
 
 .container {
@@ -18,23 +19,27 @@
     transform: translate(-50%, -50%);
     height: 90vh;
     width: 80vw;
-    border: 3px dotted blue;
-    border-radius:15px ;
-
+    border: 5px solid rgb(24, 28, 26);
+    border-radius: 15px;
+/* 
     display: flex;
     justify-items: center;
+    align-items: center; */
 }
-.left-page {
+
+.left{
+    width: 65%;
     height: 100%;
-    width: 60%;
-    background-image: url("https://img.pikbest.com/wp/202402/copy-space-3d-illustration-of-a-cyclist-in-neon-blue-hologram-racing-cycling-competition-with-side-view-and_9824917.jpg!w700wp");
-    background-size: cover;      
-    background-position: center; 
-    background-repeat: no-repeat; 
-     border-radius:15px ;
+    background-color: white;
+    border-radius: 15px;
 }
-.right-page{
-    width: 40%;
-      height: 100%;
-    background-color: aqua;
+.b{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.right{
+     display: flex;
+    justify-items: center;
+    align-items: center;
 }
